@@ -59,10 +59,6 @@ export const Skills: {
 } = {
   backend: [
     {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
-    {
       name: 'Node',
       icon: SiNodeDotJs,
     },
@@ -75,48 +71,24 @@ export const Skills: {
       icon: SiTypescript,
     },
     {
-      name: 'Graphql (JS, C#)',
-      icon: SiGraphql,
-    },
-    {
       name: 'PHP (Wordpress, Slim)',
       icon: SiPhp,
     },
   ],
   frontend: [
     {
-      name: 'React, RecoilJS',
+      name: 'React',
       icon: SiReact,
     },
     {
       name: 'NextJS',
       icon: SiNextDotJs,
     },
-    {
-      name: 'Apollo Graphql',
-      icon: SiApollographql,
-    },
-    {
-      name: 'Redux',
-      icon: SiRedux,
-    },
-    {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
-    },
   ],
   database: [
     {
       name: 'PostgreSQL',
       icon: SiPostgresql,
-    },
-    {
-      name: 'MsSQL',
-      icon: SiMicrosoftsqlserver,
     },
     {
       name: 'MySQL',
@@ -126,43 +98,15 @@ export const Skills: {
       name: 'MongoDb',
       icon: SiMongodb,
     },
-    {
-      name: 'Redis',
-      icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
   ],
   cicd: [
-    {
-      name: 'Docker',
-      icon: SiDocker,
-    },
-    {
-      name: 'GCP',
-      icon: SiGooglecloud,
-    },
     {
       name: 'CPanel',
       icon: SiCpanel,
     },
     {
-      name: 'Rancher',
-      icon: SiRancher,
-    },
-    {
       name: 'GitlabCICD',
       icon: SiGitlab,
-    },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
     },
   ],
   'ui frameworks': [
@@ -178,14 +122,7 @@ export const Skills: {
       name: 'MaterialUI',
       icon: SiMaterialUi,
     },
-    {
-      name: 'Framer Motion',
-      icon: SiFramer,
-    },
-    {
-      name: 'ChakraUI',
-      icon: BsQuestionSquare,
-    },
+
   ],
   'productivity boost': [
     {
@@ -210,10 +147,7 @@ export const Skills: {
       name: 'React Native',
       icon: SiReact,
     },
-    {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
-    },
+
   ],
   games: [
     {

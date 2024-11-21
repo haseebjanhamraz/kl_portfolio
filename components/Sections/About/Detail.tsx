@@ -13,7 +13,6 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import {
-  SiDotNet,
   SiJavascript,
   SiTypescript,
   SiGraphql,
@@ -21,6 +20,7 @@ import {
   SiNextDotJs,
   SiNodeDotJs,
   SiDocker,
+  SiExpress
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -51,9 +51,10 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
+        {/* I`ve been coding professionally for {professionalYears} years now and
         currently working as a <b>Software Engineer</b> that focuses on{' '}
-        <b>architecture</b>, <b>APIs</b>,{' '}
+        <b>architecture</b>, <b>APIs</b>,{' '} */}
+        With {professionalYears} years of professional coding experience, I’m currently thriving as a Software Engineer, diving into everything from designing scalable architectures to crafting robust APIs. I’m passionate about tackling the {" "}
         <Tooltip
           label="Ha!. Or more accurately TECH DEBT"
           aria-label="Tech Debt?"
@@ -63,7 +64,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <b>nitty-gritty business logics</b>
           </Text>
         </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
+        ensuring that the backend aligns seamlessly with frontend integrations. It’s been a rewarding journey, watching my skillset expand as time flies by
         <br /> <br />
         Here are few technologies that are cup of my{' '}
         <Tooltip
@@ -81,16 +82,16 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       <SimpleGrid columns={2} spacing={4}>
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
-            C# - .NET.Core
-          </ListItem>
-          <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiJavascript} color={emphasis} fontSize="2em" />
             Javascript (ES6+)
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiTypescript} color={emphasis} fontSize="2em" />
             Typescript
+          </ListItem>
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiExpress} color={emphasis} fontSize="2em" />
+            Express
           </ListItem>
 
           <ListItem fontSize="small" display="flex" alignItems="center">
@@ -99,10 +100,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
         </List>
         <List spacing={3}>
-          <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiGraphql} color={emphasis} fontSize="2em" />
-            Graphql
-          </ListItem>
+
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
             React
@@ -110,10 +108,6 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiNextDotJs} color={emphasis} fontSize="2em" />
             NextJS
-          </ListItem>
-          <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDocker} color={emphasis} fontSize="2em" />
-            Docker
           </ListItem>
         </List>
         <Box>

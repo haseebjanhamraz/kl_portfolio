@@ -19,8 +19,12 @@ const DetailSection = () => (
       Since 2016, had a privilege to work with several companies that enables me
       to hone my skills and talents. These companies will always have a special
       place in my heart. Currently I am working with{' '}
-      <Link href="https://www2.deloitte.com/" target="_blank" rel="noreferrer">
-        Deloitte
+      <Link href="https://neos.pk" target="_blank" rel="noreferrer">
+        NEOS
+      </Link>
+      {' '} & {' '}
+      <Link href="https://anp.org.pk" target="_blank" rel="noreferrer">
+        Awami National Party
       </Link>
       .
     </Text>

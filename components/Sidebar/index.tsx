@@ -40,9 +40,8 @@ const Sidebar = () => {
     >
       <motion.div
         id="sidebarCircle"
-        className={`${styles.sidebar} ${
-          colorMode === 'light' ? styles.dark : ''
-        }`}
+        className={`${styles.sidebar} ${colorMode === 'light' ? styles.dark : ''
+          }`}
         variants={scaleUp}
         style={{ display: display }}
         animate={colorMode === 'dark' ? 'animate' : 'lightMode'}
@@ -70,7 +69,7 @@ const Sidebar = () => {
             textTransform="uppercase"
             variants={fadeInUp}
           >
-            Marc Jhon
+            Haseeb J.
           </MotionHeading>
           <MotionHeading
             as="h2"
@@ -82,7 +81,7 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Lawingco.
+            Hamraz
           </MotionHeading>
           <MotionText
             colorScheme="gray"
@@ -90,7 +89,7 @@ const Sidebar = () => {
             className={styles.marginTopForce}
             variants={fadeInUp}
           >
-            Or you could call me KL. That works too . . .
+            Or you could call me Haseeb Alam. That works too . . .
           </MotionText>
 
           <MotionHeading
@@ -100,7 +99,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Software Engineer
+            Software Engineer | Graphic Designer
           </MotionHeading>
 
           <MotionText
@@ -128,7 +127,7 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="mailto:marcjhon18@gmail.com"
+            href="mailto:hello@haseebjanhamraz.com"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

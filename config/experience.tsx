@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'NEOS' | 'BacchaKhanTrust' | 'KPCybers' | 'AwamiNationalParty'
 
 export type CompanyDetail = {
   name: string
@@ -19,77 +19,65 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+  NEOS: {
+    name: 'NEOS',
+    longName: 'Neoteric Genetics',
+    subDetail: 'Semens Production Unit - Dairy Farming / Breeding',
+    url: 'https://neos.pk/',
+    position: 'Web & Marketing Manager',
+    duration: 'May 2024 - Present',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/neos/neos-light.png',
+      dark: '/worked_at_logos/neos/neos-light.png',
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+        Contributed to the design and development of a comprehensive dairy farm management system project for a this company
+        That covered cattle records keeping from milking to pregnancy and pedigree management.
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
+        Managing social media accounts with related photos, videos and reels content.
+      </>,
+      <>
+        Worked as a fullstack web developer on new{' '}
         <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
+          aria-label="Neoteric Genetics NEOS"
+          href="https://neos.pk/"
           target="_blank"
           rel="noreferrer"
         >
-          Deloitte Digital AU Site.
+          NEOS Official website.
         </Link>
-      </>,
-      <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
-      </>,
+      </>
     ],
   },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
+  BacchaKhanTrust: {
+    name: 'BaachaKhanTrust',
+    longName: 'Baacha Khan Trust',
+    subDetail: 'Non-profit organization with variety of departments',
     url: 'https://www.scentregroup.com/',
     position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+    duration: 'Feb 2016 - May 2024',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/bkt/bkt-dark.png',
+      dark: '/worked_at_logos/bkt/bkt-light.png',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
+        Redesigned the official website for{' '}
         <Link
-          aria-label="Westfield Marketing Hub"
+          aria-label="Baacha Khan Trust"
           href="https://partner.scentregroup.com/"
           target="_blank"
           rel="noreferrer"
         >
-          Westfield Marketing Hub
+          Baacha Khan Trust
         </Link>{' '}
         using NextJS and Typescript. Restructuring the old express app into a
         newer architectural design approach.
       </>,
       <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
+        Created multiple database in ExpressJS and NodeJS for data keeping such as memberships and forms data.
       </>,
       <>
         Worked on maintaining{' '}
@@ -99,65 +87,88 @@ export const Experiences: {
           target="_blank"
           rel="noreferrer"
         >
-          Westfield
+          Khudai Khidmatgar Organization's
         </Link>{' '}
-        main site and Graphql apis written in NodeJS.
+        main site and REST apis written in NodeJS.
       </>,
       <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
+        Developed internal networking systems with connected devices (Eg: Printers, Scanners & other devices).
       </>,
       <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
-        <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braze
-        </Link>{' '}
-        as a result.
+        Hired at early 2016, first major task was redesigning 12 websites that can scale and also enable us to have
+        personalisation as well.
       </>,
     ],
   },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
+  KPCybers: {
+    name: 'KPCybers',
+    longName: 'Khyber Cybers Pvt. Ltd.',
+    subDetail: 'Software Developer Company',
+    url: 'https://kpcybers.com/',
+    position: 'CEO / Director',
+    duration: 'Sep 2023 - Present',
     logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      light: '/worked_at_logos/kpc/kpc.png',
+      dark: '/worked_at_logos/kpc/kpc-light.png',
     },
     roles: [
       <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
+        Found a this software company in 2023 for developing robust web and mobile applications and CMS.
       </>,
       <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
+        On this position at KPC I have developed dozens of websites for clients under the umberalla of Khyber Cybers (Pvt.) Ltd.
       </>,
       <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
+        Helped tens of software engineering students to sharp their skills with the help of our senior software engineers and faculty staff.
+      </>
+    ],
+  },
+  AwamiNationalParty: {
+    name: 'AwamiNationalParty',
+    longName: 'Awami National Party',
+    subDetail: 'Progressive political party in Pakistan.',
+    url: 'https://anp.org.pk/',
+    position: 'Web Developer & Network Operator (Remote)',
+    duration: 'Nov 2018 - Present',
+    logo: {
+      light: '/worked_at_logos/anp/anp-logo.png',
+      dark: '/worked_at_logos/anp/anp-logo.png',
+    },
+    roles: [
+      <>
+        Developed a social media management system for ANP's social media team. This {" "}
+        <Link
+          variant="primaryLink"
+          href="https://anp.social/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          ANP Social Media Management System
+        </Link>{' '}
+        is a web application that helps the team to manage their social media accounts and schedule posts.
       </>,
       <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
+        Developed {" "}
+        <Link
+          variant="primaryLink"
+          href="https://anp.social/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Membership Management System
+        </Link>{' '}
+        for Awami National Party. This system helps the secreteriate to manage their members and their information through this MERN Stack app.
       </>,
+      <>
+        Create highly scalable Books shop e-commerce site with multiple payment integrations and responsive design.
+      </>
     ],
   },
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
+  Experiences.NEOS,
+  Experiences.BacchaKhanTrust,
+  Experiences.KPCybers,
+  Experiences.AwamiNationalParty,
 ]

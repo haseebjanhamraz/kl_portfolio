@@ -31,8 +31,7 @@ const FeaturedWorksSection = () => {
         Some of my works.
       </Heading>
       <Text variant="description">
-        Check out some of the works I made at freelancing, company projects and
-        even case studies.
+        Baacha Khan Trust is a Non-Profit Organization with the name of greate follower of the philosophy of non-violence Khan Abdul Ghaffar Khan (Bacha Khan).
       </Text>
 
       <MotionGrid
@@ -44,12 +43,11 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={1}
-            title="Tobira!"
+            title="ANP Official"
             src="/works/tobira/IphoneX-tobira.webp"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            description="A hundreds years old political movement Awami National Party official website."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
-            ctaUrl="https://tobira-app-test.netlify.app/"
+            ctaUrl="https://anp.org.pk"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
@@ -58,7 +56,7 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={2}
-            title="RSV"
+            title="BKT"
             description="RSV is a smart contract (ERC20) powered reservation system. I am incharge of backend using NET.Core 2.1."
             src="/works/rsv.webp"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
@@ -70,7 +68,7 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={3}
-            title="Agora School"
+            title="BKTEF"
             description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
             src="/works/agora.webp"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
@@ -83,7 +81,7 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={4}
-            title="TMH Layla EC"
+            title="CCOMAC"
             description="A Japanese Semi-conductor e-commerce made at my old place at IVP. I was working with backend using ASP.NET MVC"
             src="/works/tmh.webp"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
